@@ -1,0 +1,39 @@
+[
+    {
+        "ID":1,
+        "Application1":"LAMM",
+        "Application2":"LADM",
+        "Direction":"Outbound",
+        "Type_Of_Data_Involved":"Matter Data",
+        "Notes":""
+  
+  
+  },
+  
+  {
+    "ID":2,
+    "Application1":"LAMM",
+    "Application2":"SAP",
+    "Direction":"Outbound",
+    "Type_Of_Data_Involved":"invoices for payment",
+    "Notes":"Preapproved invoices ready for payment"
+  },
+  
+  {
+    "ID":3,
+    "Application1":"LAMM",
+    "Application2":"ClearSight",
+    "Direction":"Outbound",
+    "Type_Of_Data_Involved":"Insured matter, claims and related info",
+    "Notes":"Used by insurence group of finance"
+    },
+    {
+        "ID":4,
+        "Application1":"LAMM",
+        "Application2":"Vorys",
+        "Direction":"Outbound",
+        "Type_Of_Data_Involved":"Mass Tort Matter and related info",
+        "Notes":" "
+  
+        }
+  ]

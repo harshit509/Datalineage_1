@@ -1,0 +1,37 @@
+[
+    {
+        "ID":1,
+        "Internal_Purchased":"Internal",
+        "Portfolio":"RTR",
+        "Sub_App_Area":"Legal",
+        "App_Acronym":"LAIA",
+        "App_Name":"Legal Affairs Integrity Assignment"
+},
+{
+"ID":2,
+"Internal_Purchased":"Internal",
+"Portfolio":"RTR",
+"Sub_App_Area":"Legal",
+"App_Acronym":"LAMM",
+"App_Name":"Legal Affairs  Mater Managemnt",
+
+"Notes":"Application is reffered as ecouncel"
+},
+
+{
+    "ID":3,
+"Internal_Purchased":"Internal",
+"Portfolio":"",
+"Sub-App-Area":"",
+"App_Acronym":"Steele",
+"App_Name":"Steele"
+    },
+    {
+        "ID":4,
+    "Internal_Purchased":"Internal",
+    "Portfolio":"",
+    "Sub-App-Area":"",
+    "App_Acronym":"BU",
+    "App_Name":"Blue_umbrella"
+        }
+]
