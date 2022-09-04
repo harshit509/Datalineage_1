@@ -5,6 +5,7 @@ import data from './mock-data.json';
 import ReadOnlyRow from "./ReadOnlyRow";
 import EditableRow from './EditableRow';
 import ReactHTMLTableToExcel from 'react-html-table-to-excel';
+import Navbar from './horizontalNav/Navbar';
 
 const AppMaster = () => {
 //adding hook
@@ -125,6 +126,10 @@ const AppMaster = () => {
 
 
     <div className="app-container">
+      <div className="block">
+      <Navbar/>
+      </div>
+      <div className='block1'>
       <form onSubmit={handleAddFormSubmit} >
         <input type="number" name="ID" required="required" placeholder='Enter ID' onChange={handleAddFormChange} />
         <input type="text" name="Internal_Purchased" required="required" placeholder='Enter Internal/Purchased' onChange={handleAddFormChange} />
@@ -171,7 +176,7 @@ const AppMaster = () => {
       sheet ="sheet"
       buttonText="Export"
       />
-
+ </div>
     </div>
   )
 }

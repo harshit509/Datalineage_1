@@ -1,11 +1,12 @@
 import React, { useState, Fragment } from 'react';
 // import { nanoid } from "nanoid";
-
+import './AppMaster.css';
 import data from './mock-data_integration.json';
 import ReadOnlyRow from "./ReadOnly_Integration";
 import EditableRow from './EditableRow_Integration';
  import ReactHTMLTableToExcel from 'react-html-table-to-excel';
 
+ import Navbar from './horizontalNav/Navbar';
 
 const Integrations = () => {
 //adding hook
@@ -124,6 +125,12 @@ const Integrations = () => {
 
 
     <div className="app-container">
+      <div className='block'>
+<Navbar/>
+      </div>
+      <div className='block1'>
+
+    
       <form onSubmit={handleAddFormSubmit} >
         <input type="number" name="ID" required="required" placeholder='Enter ID' onChange={handleAddFormChange} />
         <input type="text" name="Application1" required="required" placeholder='Enter Application1' onChange={handleAddFormChange} />
@@ -169,7 +176,7 @@ const Integrations = () => {
       sheet ="sheet"
       buttonText="Export"
       />
-      
+        </div>
 
     </div>
   )

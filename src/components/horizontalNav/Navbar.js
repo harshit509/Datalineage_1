@@ -11,10 +11,6 @@ import {
   faArrowLeft,
   faSuperscript,
 } from "@fortawesome/free-solid-svg-icons";
-
-
-
-
 const Navbar = () => {
   return (
     <> 
